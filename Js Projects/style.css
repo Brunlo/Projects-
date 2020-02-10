@@ -1,0 +1,140 @@
+body { 
+background-color:lightcoral;
+
+}
+
+.clock {
+    height:400px;
+    width:400px;
+    background-color:gold;
+    border: 2px;
+    border-radius: 50px 100px 0px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+
+.one{
+    position: absolute;
+     width: 10px ;
+     height: 10px ;
+    background: cyan ;
+    border: 2px;
+    border-radius: 100%;
+      top: 40px;
+      bottom: 0px;
+      right: 100px;
+    margin: 0 auto;
+  }
+
+  .two{
+    position: absolute;
+     width: 5px ;
+     height: 5px ;
+    background: #606060 ;
+    border: 2px;
+    border-radius: 100%;
+      top: 119px;
+      bottom: 0px;
+      right: 35px;
+    margin: 0 auto;
+  }
+  
+  .three{
+    position: absolute;
+     width: 8px ;
+     height: 8px ;
+    background: cyan ;
+    border: 2px;
+    border-radius: 100%;
+      top: 202px;
+      bottom: 0px;
+      right: 8px;
+    margin: 0 auto;
+  }
+  
+  .six{
+    position: absolute;
+     width: 8px ;
+     height: 8px ;
+    background: #606060 ;
+    border: 2px;
+    border-radius: 100%;
+      top: 388px;
+      bottom: 0;
+      right: 198px;
+    margin: 0 auto;
+  }
+  
+  .nine{
+    position: absolute;
+     width: 8px ;
+     height: 8px ;
+    background: cyan ;
+    border: 2px;
+    border-radius: 100%;
+      top: 195px;
+      bottom: 0;
+      right: 388px;
+    margin: 0 auto;
+  }
+  
+  .twelve{
+    position: absolute;
+     width: 8px ;
+     height: 8px ;
+    background: #606060 ;
+    border: 2px;
+    border-radius: 100%;
+      top: 9px;
+      bottom: 0;
+      right: 198px;
+    margin: 0 auto;
+  }
+  
+  .center{
+    position: absolute;
+     width: 9px ;
+     height: 9px ;
+    background: cyan ;
+    border: 2px;
+    border-radius: 100%;
+      top: 194px;
+      bottom: 0;
+      right: 195px;
+    margin: 0 auto;
+    
+  }
+
+  #hours {
+    position: absolute;
+    height: 110px;
+    width: 4px;
+    left: 0; right: 0; bottom: 110px; top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+    background: #000000;
+ }
+
+#minutes {
+    position: absolute;
+    height: 170px;
+    width: 3px;
+    left: 0; right: 0; bottom: 170px; top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+    background: #000;
+ }
+
+#seconds {
+    position: absolute;
+    height: 155px;
+    width: 2px;
+    left: 0; right: 0; bottom: 155px; top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+    background: cyan;
+ }
